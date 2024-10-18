@@ -13,6 +13,8 @@ This website serves as a digital resume, encapsulating:
 - **Certifications**: Highlights of the certifications I've earned in my learning journey.
 - **Education**: My academic background, including my current pursuit of a **Bachelor of Technology in Computer Science**.
 - **Contact Information**: Ways to reach out for collaboration or opportunities.
+- ![Portfolio Overview ](https://github.com/user-attachments/assets/17303f52-fac3-4da2-b41f-f1861e968d23)
+
 
 ## 🎯 Job Seeking
 
@@ -25,6 +27,8 @@ Here are the technologies and tools I specialize in:
 - **Frameworks**: Bootstrap, jQuery, EJS
 - **Tools**: Git, GitHub, Firebase, Android Studio, IntelliJ IDEA, VS Code, Bash
 - **Databases**: MySQL, Firebase
+- ![skills](https://github.com/user-attachments/assets/d8c97a23-227f-45f2-9151-eecf2ac28846)
+
 
 ## 🚀 Live Preview
 
@@ -35,6 +39,8 @@ Check out the live version of my portfolio [here](#).
 - Over 5+ projects showcased with details on my work.
 - Certifications in **Android App Development**, **Web Development**, and more.
 - Real-time data and analytics integration to provide insights into my learning path.
+- ![Projects](https://github.com/user-attachments/assets/522f905e-2917-4371-b229-ab3dba488568)
+
 
 ## 📝 Future Goals
 
@@ -50,4 +56,5 @@ Thank you for visiting my portfolio, and feel free to connect with me for **coll
 📫 Let's Connect:
 - [Email]:-navi2005saini@gmail.com
 - [GitHub]:-https://github.com/Navpreet0981
+![address](https://github.com/user-attachments/assets/c3087a17-0583-4e9c-a123-b11fd4a9648d)
 
