@@ -44,15 +44,10 @@ As I continue my journey in software development, I plan to enhance my portfolio
 - Deepening my knowledge in **Database Management Systems** and cloud platforms.
 
 ---
-
 Thank you for visiting my portfolio, and feel free to connect with me for **collaboration opportunities** or **job offers**!
 
 ---
-
 📫 Let's Connect:
 - [Email]:-navi2005saini@gmail.com
 - [GitHub]:-https://github.com/Navpreet0981
 
----
-
-This README format includes professional sections like the overview, tech stack, and job-seeking status, with appropriate headers for better navigation and interactivity.
