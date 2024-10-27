@@ -1880,3 +1880,11 @@
     .timeline-text { max-width: 700px; }
   
   }
+
+
+  footer {
+    background-color: var(--eerie-black-2);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
