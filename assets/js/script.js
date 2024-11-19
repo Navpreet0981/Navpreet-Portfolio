@@ -113,8 +113,6 @@ for (let i = 0; i < filterBtn.length; i++) {
 
 }
 
-
-
 // contact form variables
 const form = document.querySelector("[data-form]");
 const formInputs = document.querySelectorAll("[data-form-input]");
@@ -157,3 +155,60 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+
+
+// Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyAC6lXk25VAtjfCz8H_f2FwQzE-5DCkcC0",
+  authDomain: "navpreet-s-portfolio.firebaseapp.com",
+  projectId: "navpreet-s-portfolio",
+  storageBucket: "navpreet-s-portfolio.firebasestorage.app",
+  messagingSenderId: "89023718038",
+  appId: "1:89023718038:web:12337af1389127a23cd8b7",
+  measurementId: "G-HQR6G1Y9RQ"
+};
+
+// Initialize Firebase
+const app = firebase.initializeApp(firebaseConfig);
+const analytics = firebase.analytics(app);
+const db = firebase.firestore(); // Initialize Firestore
+
+// Select form elements
+const cform = document.querySelector("[data-form]");
+const inputs = document.querySelectorAll("[data-form-input]");
+const submitButton = document.querySelector("[data-form-btn]");
+
+// Enable the submit button when the form is filled
+inputs.forEach(input => {
+  input.addEventListener("input", () => {
+    submitButton.disabled = !cform.checkValidity(); // Enables if all required fields are valid
+  });
+});
+
+// Handle Contactform submission
+cform.addEventListener("submit", async (e) => {
+  e.preventDefault(); // Prevent page reload on Contactform submission
+
+  // Retrieve input values
+  const name = cform.querySelector("input[name='fullname']").value;
+  const email = cform.querySelector("input[name='email']").value;
+  const message = cform.querySelector("textarea[name='message']").value;
+
+  try {
+    // Add message to Firestore
+    await db.collection("messages").add({
+      name: name,
+      email: email,
+      message: message,
+      timestamp: firebase.firestore.FieldValue.serverTimestamp() // Optional: timestamp for ordering messages
+    });
+
+    // Feedback to user on successful submission
+    alert("Message sent successfully!");
+    cform.reset(); // Clear the Contactform fields
+    submitButton.disabled = true; // Disable button after submit to prevent duplicate messages
+  } catch (error) {
+    console.error("Error sending message: ", error);
+    alert("Failed to send message. Please try again.");
+  }
+});

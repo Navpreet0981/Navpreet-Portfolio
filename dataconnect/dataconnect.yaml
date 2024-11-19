@@ -1,0 +1,12 @@
+specVersion: "v1beta"
+serviceId: "P6 Personal Portfolio"
+location: "us-central1"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "fdcdb"
+      cloudSql:
+        instanceId: "P6 Personal Portfolio-fdc"
+      # schemaValidation: "COMPATIBLE"
+connectorDirs: ["./connector"]
