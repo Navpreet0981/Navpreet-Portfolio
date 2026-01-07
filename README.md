@@ -1,63 +1,102 @@
 # 🎯 Personal Portfolio Website
-You can visit my website [here](https://navpreet-portfolio-nqug.vercel.app/)
+You can visit my website here:  
+👉 ![Website Link](https://navpreet-portfolio-nqug.vercel.app/)
 
+---
 
 # 💼 Personal Portfolio Website by Navpreet Singh
 
-Welcome to my **Personal Portfolio Website**, a comprehensive showcase of my journey, skills, and achievements in the world of software development. This website highlights everything about me, including my education, certifications, projects, and technical expertise.
+Welcome to my **Personal Portfolio Website**, a platform where I showcase my skills, projects, certifications, and learning journey in software development. This website represents my profile as a developer and serves as a digital resume.
 
 ![Portfolio Overview](https://github.com/user-attachments/assets/bd1544e9-f5a5-4dd9-872d-ccb3521d076f)
 
+---
+
 ## 🌟 Overview
 
-This website serves as a digital resume, encapsulating:
-- **About Me**: A brief introduction and my career aspirations.
-- **Skills**: Proficiencies in various programming languages, frameworks, and tools.
-- **Projects**: A showcase of my personal and academic projects, with detailed descriptions and links to repositories.
-- **Certifications**: Highlights of the certifications I've earned in my learning journey.
-- **Education**: My academic background, including my current pursuit of a **Bachelor of Technology in Computer Science**.
-- **Contact Information**: Ways to reach out for collaboration or opportunities.
-- ![Portfolio Overview ](https://github.com/user-attachments/assets/17303f52-fac3-4da2-b41f-f1861e968d23)
+This website includes the following sections:
 
+- **About Me** – A brief introduction and my career aspirations  
+- **Skills** – Programming languages, frameworks, and tools I work with  
+- **Projects** – Personal and academic projects with descriptions  
+- **Certifications** – Certifications earned during my learning journey  
+- **Education** – Academic background (B.Tech in Computer Science)  
+- **Contact** – Contact form to connect with me  
+
+![Portfolio Overview](https://github.com/user-attachments/assets/17303f52-fac3-4da2-b41f-f1861e968d23)
+
+---
 
 ## 🎯 Job Seeking
 
-I am actively seeking opportunities in **Software Development** where I can leverage my skills to contribute to innovative projects. I am particularly interested in Full-Stack Development and have a strong foundation in web technologies, databases, and algorithms.
+I am actively seeking opportunities in **Software Development**, especially in roles related to **Full-Stack Development**. I have a strong foundation in web technologies, databases, and problem-solving, and I am eager to work on real-world projects.
+
+---
 
 ## 🔧 Technology Stack
 
-Here are the technologies and tools I specialize in:
-- **Languages**: Java, JavaScript, HTML, CSS, NodeJS, npm
-- **Frameworks**: Bootstrap, jQuery, EJS
-- **Tools**: Git, GitHub, Firebase, Android Studio, IntelliJ IDEA, VS Code, Bash
-- **Databases**: MySQL, Firebase
-- ![skills](https://github.com/user-attachments/assets/d8c97a23-227f-45f2-9151-eecf2ac28846)
+**Languages**
+- Java  
+- JavaScript  
+- HTML  
+- CSS  
 
+**Frameworks & Libraries**
+- Bootstrap  
+- jQuery  
+- EJS  
+
+**Tools**
+- Git  
+- GitHub  
+- Firebase  
+- Android Studio  
+- IntelliJ IDEA  
+- VS Code  
+- Bash  
+
+**Databases**
+- MySQL  
+- Firebase Firestore  
+
+![Skills](https://github.com/user-attachments/assets/d8c97a23-227f-45f2-9151-eecf2ac28846)
+
+---
 
 ## 🚀 Live Preview
 
-Check out the live version of my portfolio [here](https://navpreet-portfolio-nqug.vercel.app/).
+Check out the live version of my portfolio here:  
+👉 https://navpreet-portfolio-nqug.vercel.app/
+
+---
 
 ## 📈 Highlights
 
-- Over 5+ projects showcased with details on my work.
-- Certifications in **Android App Development**, **Web Development**, and more.
-- Real-time data and analytics integration to provide insights into my learning path.
-- ![Projects](https://github.com/user-attachments/assets/522f905e-2917-4371-b229-ab3dba488568)
+- Showcases **5+ personal and academic projects**
+- Integrated **Firebase Firestore** for contact form submissions
+- Fully responsive design for desktop and mobile
+- Clean and modern UI  
 
+![Projects](https://github.com/user-attachments/assets/522f905e-2917-4371-b229-ab3dba488568)
+
+---
 
 ## 📝 Future Goals
 
-As I continue my journey in software development, I plan to enhance my portfolio with:
-- More **open-source contributions**.
-- Advanced projects in **Android App Development** and **Full-Stack Web Development**.
-- Deepening my knowledge in **Database Management Systems** and cloud platforms.
+As I continue my journey in software development, I plan to:
+
+- Contribute to **open-source projects**
+- Build advanced **Full-Stack and Android applications**
+- Strengthen my knowledge of **DBMS and cloud platforms**
 
 ---
-Thank you for visiting my portfolio, and feel free to connect with me for **collaboration opportunities** or **job offers**!
+
+Thank you for visiting my portfolio.  
+Feel free to connect with me for **collaboration, internships, or job opportunities**.
 
 ---
-📫 Let's Connect:
-- [Email]:-navi2005saini@gmail.com
-- [GitHub]:-https://github.com/Navpreet0981
 
+## 📫 Let's Connect
+
+- **Email:** navi2005saini@gmail.com  
+- **GitHub:** https://github.com/Navpreet0981
