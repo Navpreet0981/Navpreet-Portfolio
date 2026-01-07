@@ -114,23 +114,23 @@ for (let i = 0; i < filterBtn.length; i++) {
 }
 
 // contact form variables
-const form = document.querySelector("[data-form]");
-const formInputs = document.querySelectorAll("[data-form-input]");
-const formBtn = document.querySelector("[data-form-btn]");
+// const form = document.querySelector("[data-form]");
+// const formInputs = document.querySelectorAll("[data-form-input]");
+// const formBtn = document.querySelector("[data-form-btn]");
 
-// add event to all form input field
-for (let i = 0; i < formInputs.length; i++) {
-  formInputs[i].addEventListener("input", function () {
+// // add event to all form input field
+// for (let i = 0; i < formInputs.length; i++) {
+//   formInputs[i].addEventListener("input", function () {
 
-    // check form validation
-    if (form.checkValidity()) {
-      formBtn.removeAttribute("disabled");
-    } else {
-      formBtn.setAttribute("disabled", "");
-    }
+//     // check form validation
+//     if (form.checkValidity()) {
+//       formBtn.removeAttribute("disabled");
+//     } else {
+//       formBtn.setAttribute("disabled", "");
+//     }
 
-  });
-}
+//   });
+// }
 
 
 
@@ -158,6 +158,9 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
 
 // Firebase configuration
+// ================= CONTACT FORM + FIREBASE =================
+
+// Firebase configuration
 const firebaseConfig = {
   apiKey: "AIzaSyAC6lXk25VAtjfCz8H_f2FwQzE-5DCkcC0",
   authDomain: "navpreet-s-portfolio.firebaseapp.com",
@@ -169,46 +172,46 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-const app = firebase.initializeApp(firebaseConfig);
-const analytics = firebase.analytics(app);
-const db = firebase.firestore(); // Initialize Firestore
+firebase.initializeApp(firebaseConfig);
+const db = firebase.firestore();
 
-// Select form elements
-const cform = document.querySelector("[data-form]");
+// Contact form elements
+const form = document.querySelector("[data-form]");
 const inputs = document.querySelectorAll("[data-form-input]");
-const submitButton = document.querySelector("[data-form-btn]");
+const submitBtn = document.querySelector("[data-form-btn]");
 
-// Enable the submit button when the form is filled
+// Enable button only when form is valid
 inputs.forEach(input => {
   input.addEventListener("input", () => {
-    submitButton.disabled = !cform.checkValidity(); // Enables if all required fields are valid
+    submitBtn.disabled = !form.checkValidity();
   });
 });
 
-// Handle Contactform submission
-cform.addEventListener("submit", async (e) => {
-  e.preventDefault(); // Prevent page reload on Contactform submission
+// Handle form submission
+form.addEventListener("submit", async (e) => {
+  e.preventDefault();
 
-  // Retrieve input values
-  const name = cform.querySelector("input[name='fullname']").value;
-  const email = cform.querySelector("input[name='email']").value;
-  const message = cform.querySelector("textarea[name='message']").value;
+  const name = form.querySelector("input[name='fullname']").value.trim();
+  const email = form.querySelector("input[name='email']").value.trim();
+  const message = form.querySelector("textarea[name='message']").value.trim();
+
+  if (!name || !email || !message) return;
 
   try {
-    // Add message to Firestore
     await db.collection("messages").add({
-      name: name,
-      email: email,
-      message: message,
-      timestamp: firebase.firestore.FieldValue.serverTimestamp() // Optional: timestamp for ordering messages
+      name,
+      email,
+      message,
+      timestamp: firebase.firestore.FieldValue.serverTimestamp()
     });
 
-    // Feedback to user on successful submission
     alert("Message sent successfully!");
-    cform.reset(); // Clear the Contactform fields
-    submitButton.disabled = true; // Disable button after submit to prevent duplicate messages
+    form.reset();
+    submitBtn.disabled = true;
+
   } catch (error) {
-    console.error("Error sending message: ", error);
-    alert("Failed to send message. Please try again.");
+    console.error("Firestore Error:", error);
+    alert("Failed to send message. Try again later.");
   }
 });
+
