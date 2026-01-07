@@ -1,5 +1,5 @@
 # 🎯 Personal Portfolio Website
-You can visit my website [here](https://Navpreet0981.github.io/Navpreet-Portfolio/)
+You can visit my website [here](https://navpreet-portfolio-nqug.vercel.app/)
 
 
 # 💼 Personal Portfolio Website by Navpreet Singh
@@ -36,7 +36,7 @@ Here are the technologies and tools I specialize in:
 
 ## 🚀 Live Preview
 
-Check out the live version of my portfolio [here](#).
+Check out the live version of my portfolio [here](https://navpreet-portfolio-nqug.vercel.app/).
 
 ## 📈 Highlights
 
