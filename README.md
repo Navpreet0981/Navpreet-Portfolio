@@ -60,5 +60,4 @@ Thank you for visiting my portfolio, and feel free to connect with me for **coll
 📫 Let's Connect:
 - [Email]:-navi2005saini@gmail.com
 - [GitHub]:-https://github.com/Navpreet0981
-![address](https://github.com/user-attachments/assets/c3087a17-0583-4e9c-a123-b11fd4a9648d)
 
