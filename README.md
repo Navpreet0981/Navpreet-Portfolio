@@ -83,11 +83,14 @@ Check out the live version of my portfolio here:
 
 ---
 
-## Mobile View
-<img width="540" height="1204" alt="image" src="https://github.com/user-attachments/assets/eb718004-ba06-45c8-ba46-0da41b09cde6" />
-<img width="540" height="1204" alt="image" src="https://github.com/user-attachments/assets/a1c98f63-fe80-4a82-9ce1-b635b492585f" />
-<img width="540" height="1204" alt="image" src="https://github.com/user-attachments/assets/d0a434d8-9b4c-430e-9b2c-8044e5d48cde" />
-<img width="540" height="1204" alt="image" src="https://github.com/user-attachments/assets/09c226e6-0c1c-4d40-a497-c2a6b5a6acd2" />
+## 📱 Mobile View
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/eb718004-ba06-45c8-ba46-0da41b09cde6" width="220" />
+  <img src="https://github.com/user-attachments/assets/a1c98f63-fe80-4a82-9ce1-b635b492585f" width="220" />
+  <img src="https://github.com/user-attachments/assets/d0a434d8-9b4c-430e-9b2c-8044e5d48cde" width="220" />
+  <img src="https://github.com/user-attachments/assets/09c226e6-0c1c-4d40-a497-c2a6b5a6acd2" width="220" />
+</p>
 
 ---
 
