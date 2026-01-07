@@ -1,6 +1,6 @@
 # 🎯 Personal Portfolio Website
 You can visit my website here:  
-👉 ![Website Link](https://navpreet-portfolio-nqug.vercel.app/)
+👉 [Website Link](https://navpreet-portfolio-nqug.vercel.app/)
 
 ---
 
@@ -59,7 +59,8 @@ I am actively seeking opportunities in **Software Development**, especially in r
 - MySQL  
 - Firebase Firestore  
 
-![Skills](https://github.com/user-attachments/assets/d8c97a23-227f-45f2-9151-eecf2ac28846)
+<img width="1801" height="823" alt="image" src="https://github.com/user-attachments/assets/59828f84-86d2-414d-a445-704156bca23f" />
+
 
 ---
 
@@ -77,7 +78,16 @@ Check out the live version of my portfolio here:
 - Fully responsive design for desktop and mobile
 - Clean and modern UI  
 
-![Projects](https://github.com/user-attachments/assets/522f905e-2917-4371-b229-ab3dba488568)
+<img width="1691" height="1033" alt="image" src="https://github.com/user-attachments/assets/446bdab4-a8a0-4e99-8e87-bd0f85678c88" />
+
+
+---
+
+## Mobile View
+<img width="540" height="1204" alt="image" src="https://github.com/user-attachments/assets/eb718004-ba06-45c8-ba46-0da41b09cde6" />
+<img width="540" height="1204" alt="image" src="https://github.com/user-attachments/assets/a1c98f63-fe80-4a82-9ce1-b635b492585f" />
+<img width="540" height="1204" alt="image" src="https://github.com/user-attachments/assets/d0a434d8-9b4c-430e-9b2c-8044e5d48cde" />
+<img width="540" height="1204" alt="image" src="https://github.com/user-attachments/assets/09c226e6-0c1c-4d40-a497-c2a6b5a6acd2" />
 
 ---
 
